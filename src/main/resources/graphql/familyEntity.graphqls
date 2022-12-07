@@ -1,0 +1,16 @@
+type FamilyEntity{
+id:ID
+surname:String
+name:String
+fathername:String
+}
+
+type Query{
+findAllFamilies: [FamilyEntity]
+}
+
+type Mutation{
+createFamily(surname:String, name:String, fathername:String):FamilyEntity
+updateFamily(id:ID, surname:String, name:String, fathername:String):FamilyEntity
+deleteFamily(id:ID):Boolean
+}
