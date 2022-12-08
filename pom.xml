@@ -55,6 +55,11 @@
 			<artifactId>spring-graphql-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    <groupId>io.leangen.graphql</groupId>
+    <artifactId>graphql-spqr-spring-boot-starter</artifactId>
+    <version>0.0.6</version>
+</dependency>
 	</dependencies>
 
 	<build>
